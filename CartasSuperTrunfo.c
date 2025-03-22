@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
+    // Dados para carta 01
     char estado1[50], codigocarta1[50], nomedacidade1[50];
     int populacao1, numeropontosturistico1;
     float areaemkm1, pib1;
-
+    // Dados para carta 02
     char estado2[50], codigocarta2[50], nomedacidade2[50];
     int populacao2, numeropontosturistico2;
     float areaemkm2, pib2;
-
+    // Solicitando dados para carta 01
     printf("Digite o nome do Estado (Carta 1): ");
     scanf("%s", estado1);
 
@@ -29,7 +30,7 @@ int main() {
 
     printf("Digite o número de pontos turísticos (Carta 1): ");
     scanf("%d", &numeropontosturistico1);
-
+    // Solicitando dados para carta 02
     printf("\nDigite o nome do Estado (Carta 2): ");
     scanf("%s", estado2);
 
